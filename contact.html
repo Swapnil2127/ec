@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<script src="js/validate.js"></script>
+</head>
+<body>
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="img/as.png" width="150px" height="50px"></label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+	<div class="enquiry">
+	<h1>Contact Us</h1>
+	<form method="post" action="" onsubmit="return validation()">
+		<input class="details" type="text" name="name" id="name" placeholder="Enter Your Name" autocomplete="off">
+		<br><span id="username" class="warning"></span><br>
+
+		<input class="details" type="email" name="email" id="email" placeholder="Enter Your Email"  autocomplete="off">
+		<br><span id="mailid" class="warning"></span><br>
+
+		<!-- <input class="details" type="Password" name="password" id="password" placeholder="Enter Password" autocomplete="off">
+		<br><span id="pass" class="warning"></span><br>
+
+		<input class="details" type="Password" name="cnfrm_password" id="cnfrm_password" placeholder="Confirm Password" autocomplete="off">
+		<br><span id="cnfrmpass" class="warning"></span><br> -->
+
+		<input class="details" type="number" name="number" id="number" placeholder="Enter Mobile Number" autocomplete="off">
+		<br><span id="mbl" class="warning"></span><br>
+		<input class="details" type="text" name="name" id="name" placeholder="Enter Your Address" autocomplete="off">
+		<br><span id="username" class="warning"></span><br>
+
+		<input type="submit" name="submit">
+	</form>
+</div>
+<footer class="footer">
+    <div class="footer-bg">
+        <img src="img/as.png" height="50px" width="150px">
+        <p>© 2020 EvenzOne</p>
+        <h3>CONTACT-US</h3>
+        <h5>Phone Number:-  +06787387638<br>Email:-  demo@gmail.com<br>Address:-  Lorem Ipsum, dolor sit amedam.</h5>
+        </div>
+</footer>
+</body>
+</html>

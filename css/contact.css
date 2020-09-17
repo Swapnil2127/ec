@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+}
+body{
+		font-family: 'Ubuntu Mono', monospace;
+		background: #c2cfcd;
+	}
+	h1{
+		text-align: center;
+	}
+	form{
+		text-align: center;
+
+	}
+	.enquiry{
+		box-sizing: border-box;
+		margin: 40px 120px 20px 130px;
+		padding: 25px;
+	}
+	.details{
+		width: 35%;
+		padding: 12px 20px;
+		margin: 8px 0 20px 0;
+		box-sizing: border-box;
+		border: none;
+		border-bottom: 2px solid black;
+		background:#c2cfcd;
+	}
+	::placeholder{
+		color: black;
+		font-size: 12px;
+		font-family: 'Playfair Display', serif;
+		text-align: center;
+		background: #c2cfcd;
+	}
+	input[type=submit]{
+  		background-color: #1a1915;
+ 		border: 2px solid #b0ac41;
+ 		border-radius: 10px;
+  		color: white;
+  		font-size: 17px;
+  		padding: 10px 25px;
+  		text-decoration: none;
+  		margin: 4px 2px;
+  		cursor: pointer;
+	}
+	.warning{
+		color: red;
+		font-size: 15px;
+		font-weight: bold;
+	}

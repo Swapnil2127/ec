@@ -1,0 +1,24 @@
+.event{
+	background: #383732;
+}
+.head{
+	color: lightgrey;
+}
+.reviews{
+	color: white;
+	background: #1c1c1c;
+	/*padding: 3px;*/
+	margin-bottom: 0px;
+}
+.clients{
+	background: #2a2b2b;
+	font-family: 'Cabin', sans-serif;
+}
+.clients img{
+	background: #1c1c1c;
+	border: 0 solid #1c1c1c;
+	/*border-radius: 10px;*/
+}
+.clients h1{
+	color: lightgrey;
+}

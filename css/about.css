@@ -1,0 +1,31 @@
+.history{
+	background: #ebeced;
+	font-family: 'Cabin', sans-serif;
+}
+.historyimage{
+	margin-top: 20px;
+	border-radius: 20px;
+}
+.history h1{
+    font-size: 3rem;
+}
+.history p{
+    font-size: 20px;
+    margin-top: 22px;
+}
+.slider{
+	font-family: 'Cabin', sans-serif;
+	background: #303338;
+}
+.slider h1{
+	color: #ebf1fc;
+	padding-bottom: 5px;
+}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
